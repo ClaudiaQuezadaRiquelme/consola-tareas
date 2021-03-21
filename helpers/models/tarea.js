@@ -6,7 +6,7 @@ class Tarea {
     fechaCompletado = null;
 
     constructor( desc ) {
-        this.id = uuidv4;
+        this.id = uuidv4();
         this.desc = desc;
         this.fechaCompletado = null;
     }

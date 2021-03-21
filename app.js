@@ -18,7 +18,7 @@ const main = async () => {
         switch (opt) {
             case '1': // crear opcion: Cuál es el valor de la tarea que quieres agregar
                 const desc = await leerInput('Descripción:');
-                console.log(desc);
+                tareas.crearTarea( desc );
                 break;
         
             case '2':
